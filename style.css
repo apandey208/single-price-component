@@ -25,14 +25,20 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	background-color: limegreen;
+	background-color: rgb(89, 214, 89);
 	width: 250px;
 	padding: 14px 60px;
 	font-size: 30px;
 	border-radius: 10px;
-	border: solid green 2px;
+	
 }
 
 .h2{
-	color: rgb(124, 223, 124);
+	color: rgb(110, 226, 110);
+	
+}
+
+.row{
+	background-color: rgb(19, 145, 145);
+	
 }
