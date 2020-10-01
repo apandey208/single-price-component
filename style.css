@@ -3,24 +3,15 @@ body{
 	font-family: "Karla", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	background-image:linear-gradient(to left, lightgreen, skyblue);
-
+	background-image: linear-gradient(to left, rgb(241, 224, 224), rgb(104, 101, 101));
+	
 }
 	
 .container{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		margin-top: 100px;
-		width: 100%;
-		height: 700px;
-		padding: 4px;
-		border-radius: 20px;
-		background: fixed;
-		  
+		padding:100px;
+			  
 	}
-		
+	
 
 @media only screen and (min-width: 768px)
 {
@@ -30,15 +21,18 @@ body{
 	}
 }
 
-.down{
+.btn {
 	display: flex;
-	justify-content: space-around;
-	align-items: flex-end;
-	flex-flow: row;
-	padding: 8px;
-	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: limegreen;
+	width: 250px;
+	padding: 14px 60px;
+	font-size: 30px;
+	border-radius: 10px;
+	border: solid green 2px;
+}
 
-
-
-
+.h2{
+	color: rgb(124, 223, 124);
 }
